@@ -1,0 +1,190 @@
+<! DOCTYPE html >
+< html >
+< голова >
+< meta  charset = " utf-8 " >
+< link  rel = " stylesheet " href = " style.css " >
+</ голова >
+
+ < body  bgcolor = " # D8BFD8 " >
+
+
+< div  class = " header " >
+  < div  class = " logo " >  < img  src = " logo.jpg " alt = " logotip " height = " 70 " >  </ div >
+        < div > IT </ div > 
+  </ div >
+
+< div  class = " nav " >
+
+< div  class = " menu " >
+      < HREF = " https://github.com/ " > GitHub </ > & NBSP; & NBSP; 
+      < HREF = " https://about.gitlab.com/ " > GitLab </ > & NBSP; & NBSP; 
+      < HREF = " https://habr.com/ru/all/ " > Hubr </ > 
+</ div >
+
+   < h1 > Ссылки </ h1 >
+
+	< HREF = " http://example.com " мишень =" _blank " > Абсолютная ссылка на главную страницу example.com </ > < бр > 
+
+	< HREF = " https://example.com/ " мишень =" _blank " > Абсолютный на главном сайте example.com в протоколе "HTTPS" </ > < бр > 
+
+	< HREF = " ftp://ftp.redcom.ru/ " мишень =" _blank " > Ссылка на файл на сервере FTP без авторизации </ > < бр > 
+
+	< HREF = " FTP: // пользователь: pass123@tavalik.ru " мишень =" _blank " > Ссылка на файл на сервере FTP с авторизацией </ > < бр > 
+
+	< HREF = " http://www.example.com/about " мишень =" _blank " > Ссылка на фрагмент страницы некоторого сайта </ > < бр > 
+
+	< HREF = " #dno " > Ссылка на фрагмент текущей страницы </ > < бр > 
+
+	< HREF = " https://www.wildberries.ru/catalog/0/search.aspx?search.aspx?search=корма%20для%20дегу&sort=popular " мишень =" _blank " > Ссылка с двумя параметрами в URL </ > < бр > 
+
+	 Список ссылок с подписями title 
+
+	< ul >
+	< HREF = " index.html " название =" Главная страница " целевой =" _blank " > Главная страница </ > < бр > 
+	< HREF = "" название = " Обновить странницу " > Обновить </ > < бр > 
+	< HREF = " ../index.html " название =" Относительная ссылка на странице в каталоге уровне выше текущего " мишень =" _blank " > Относительной ссылки на странице в каталоге уровня выше текущего </ > < бр > 
+
+	</ ul >
+
+	< > Ссылка без HREF </ > < бр >
+
+	< HREF = "" целевой = " _blank " > Ссылка с пустым HREF </ > < бр > 
+
+	< HREF = " http://example.ru " отн =" NOFOLLOW " мишень =" _blank " > Ссылка по которой запрещен переход поисковикам </ > < бр > 
+
+	<! - NOINDEX -> < HREF = " http://example.ru " мишень =" _blank " > Ссылка неиндексируемые поисковики </ > <! - / NOINDEX -> < бр > 
+
+	< Р > Контекстная ссылка в тексте < HREF = " https://ru.wikipedia.org/wiki/Маск,_Илон " мишень =" _blank " > абзаца </ > </ р > < бр > 
+
+	< HREF = " http://example.com/ " > < IMG SRC =" 1.png " ширина =" 50 " высота =" 50 " > </ > < бр >  
+
+	< IMG  SRC = " 1.png " usemap =" 1.png " ширина =" 500 " высота =" 400 " >  < отображение  названия =" Пример " > 
+< area  title = " пейзаж " alt = " rect " coords = " 0,0,300,200 " shape = " rect " href = " http://example.com/ " >
+
+< area  title = " пейзаж 1 " alt = " circle " coords = " 250,300,75 " shape = " circle " >
+ </ карта >
+< Бр >
+
+	< HREF = " index.html " целевых =" _blank " > Относительная ссылка на страницу в текущем каталоге </ > < бр > 
+
+	< HREF = " о / about.html " мишень =" _blank " > Относительная ссылка на страницу в каталоге о </ > < бр > 
+
+	< HREF = " ../web1.html " мишень =" _blank " > Относительная ссылка на страницу в каталоге уровнем выше текущего </ > < бр > 
+
+	< HREF = " ../../web1.html " мишень =" _blank " > Относительная ссылка на страницу в каталоге двумя уровнями выше </ > < бр > 
+
+	< HREF = " /web1.html " мишень =" _blank " > Сокращенная ссылка на главную </ > < бр > 
+
+	< HREF = " demo.html " мишень =" _blank " > Cсылка на внутреннюю страницу </ > < бр > 
+
+
+
+< form  action = " / " method = " POST " >
+
+
+    < font  color = " # 000000 " >
+    < h1  align = " center " > Оставите информацию о себе? </ h1 >
+    </ font >
+
+    < font  color = " # 000000 " > 
+    < h1 > < label > Имя: < input  type = " text " >  </ label > </ h1 >
+    </ font >
+    < font  color = " # 000000 " > 
+    < h1 > < label > Электронная почта: < input  type = " email: " >  </ label > </ h1 >
+    </ font >
+    < h4  align = " left " >  < label > Дата Рождения: < input  type = " date " >  </ label >  </ h4 >
+    < font  color = " # 000000 " >
+    Пол: < бр >
+    < font  color = " # 000000 " > </ font >
+          < label > < input  type = " radio " name = " radio-group-1 " value = " Значение1 " >
+            женский </ label >
+            </ font >
+            < font  color = " # 000000 " >
+          < label > < input  type = " radio " name = " radio-group-1 " value = " Значение2 " >
+            мужской </ метка > < бр >
+    </ font >
+    < font  color = " # 000000 " > 
+    Кол-во конечностях: < бр >
+          < label > < input  type = " radio " name = " radio-group-1 " value = " Значение1 " >
+             1 </ label >
+          < label > < input  type = " radio " name = " radio-group-1 " value = " Значение2 " >
+            2 </ метка > < бр >
+    < label > < input  type = " radio " name = " radio-group-1 " value = " Значение3 " >
+             3 </ label >
+          < label > < input  type = " radio " name = " radio-group-1 " value = " Значение4 " >
+            4 </ метка > < бр >
+    </ font >
+    < font  color = " # 000000 " >
+    < h4  align = " left " >  < label  for = "" Особые  Способности: = " Особые Способности: " > Особые Способности: </ label >  </ h4 >
+    < select  name = " Особые Способности: " >
+    < option  value = " Не плакать от лука " > Не плакать от лука </ option >
+    < option  value = " Всегда успевать в дедлайны " > Всегда успевать в дедлайны </ option >
+    < option  value = " Искренне любить дискретку " > Искренне любить дискретку </ option >
+    < option  value = " Кодить без ошибок " > Кодить без ошибок </ option >
+    < option  value = " -Ничего- " > -Ничего- </ option >   
+    </ выбрать >
+    </ font >
+    < h4  align = " left " > < label > Ваша Биография: < textarea >  </ textarea >  </ label >  </ h4 >
+
+
+    С данным контрактом ознакомлен (а): < бр >
+          < label > < input  type = " checkbox " name = " radio-group-1 " value = " Значение1 " >
+            </ label >
+    < р >
+    < input  type = " submit " value = " Отправить данные " >
+
+
+    < ID = " ДНО " > </ >  
+</ p >
+  </ форма >
+< h2 > Статистика ЗП в зависимости от должности </ h2 >
+< div  class = " table " > </ div >
+
+< таблица >
+            < tbody >
+                < tr >
+                   < th  class = " ncet " > Должность </ th >
+                   < th  class = " ncet " > Юниор </ th >
+                  < th  class = " ncet " > Средний </ th >
+                  < th  class = " ncet " > Старший </ th >
+
+                </ tr >
+                < tr >
+                    < td  class = " cet " > Руководитель проекта </ td >
+                    < td  class = " cet " > --- </ td >
+                    < td  class = " cet " > 40–90 (руб) </ td >
+                    < td  class = " cet " > 100+ (руб.) </ td >
+                </ tr >
+                < tr >
+                    < td  class = " cet " > Руководитель группы </ td >
+                    < td  class = " cet " > --- </ td >
+                    < td  class = " cet " > --- </ td >
+                    < td  class = " cet " > 120+ (руб) </ td >
+                </ tr >
+                < tr >
+                    < td   class = " cet " > технический руководитель </ td >
+                    < td  class = " cet " > --- </ td >
+                    < td  class = " cet " > --- </ td >
+                    < td  class = " cet " > 120+ (руб) </ td >
+                </ tr >
+                < tr >
+                    < td  class = " cet " > Системный аналитик </ td >
+                    < td  class = " cet " > 30-40 (руб) </ td >
+                    < td  class = " cet " > 50-80 (руб) </ td >
+                    < td  class = " cet " > 90+ (руб) </ td >
+                </ tr >
+                < tr >
+                    < td  class = " cet " > QA-инженер </ td >
+                    < td  class = " cet " > 30–50 (руб) </ td >
+                    < td  class = " cet " > 60-100 (руб) </ td >
+                    < td  class = " cet " > 100+ (руб.) </ td >
+                     </ tr >
+            </ tbody >
+        </ таблица >
+
+</ div >
+< div  class = " footer " > (с) Смиян Алина 2021 </ div >
+
+</ body >
+
+< html >
